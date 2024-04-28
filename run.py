@@ -74,7 +74,7 @@ async def connect_to_wss(socks5_proxy, user_id):
 
 async def main():
     #find user_id on the site in conlose localStorage.getItem('userId') (if you can't get it, write allow pasting)
-    _user_id = '2ex8lIR57R4HIpYUsKBd1exAwDe'
+    _user_id = '2ex8rkox5vicsKPxxO4AVZzQBoQ'
     #put the proxy in a file in the format socks5://username:password@ip:port or socks5://ip:port
     with open('prxy.txt', 'r') as file:
         socks5_proxy_list = file.read().splitlines()
